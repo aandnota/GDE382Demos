@@ -1,0 +1,55 @@
+body, h1{
+  padding: 0;
+  margin: 0;
+}
+
+section.headerimage{
+  width: 100vw;
+  height: 50vw;
+
+  background-image: url("../imgs/pointyboot.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+div.primary-text{
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+div.primary-text>h1{
+  color: #fff;
+  font-size: 10rem;
+}
+
+section.content{
+  width: 70vw;
+  margin: 0 auto;
+}
+
+article#lead-text{
+  width: 100%;
+  font-style: italic;
+}
+
+article.secondary-text{
+
+}
+
+article#small-stub{
+  width: 60%;
+}
+
+div.stubs{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
