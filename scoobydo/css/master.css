@@ -1,0 +1,41 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+div#headings{
+  background-color: #e88772;
+}
+
+div.boxes{
+  width: 100vw;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0 auto;
+}
+
+div.boxes>div{
+  width: 32vw;
+  height: 32vw;
+
+  margin: 3vw;
+  padding: 4vw;
+
+  background-color: #019eeb;
+
+  overflow: hidden;
+}
+
+div.boxes>div:nth-child(even){
+  background-color: #f1e474;
+}
+
+div#image-box{
+  width: 100%;
+}
+
+div#image-box>img{
+  width: 100%;
+}
