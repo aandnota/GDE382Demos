@@ -30,8 +30,12 @@ div.primary-text{
 div.primary-text>h1{
   color: #fff;
   font-size: 10rem;
-  font-family: "Noticia Text", sans-serif;
+  font-family: "Noticia Text", serif;
   line-height: 89%;
+}
+
+h3{
+  font-family: "Noticia Text", serif;
 }
 
 section.content{
@@ -46,12 +50,15 @@ article#lead-text{
 }
 
 article.secondary-text h3{
-  margin: 3vw 0 1.5vw 0;
+  margin: 3vw 0 1vw 0;
+  font-size: 150%;
 }
 
 article.secondary-text p{
   font-weight: 100;
-  font-style
+  font-style: normal;
+
+  margin: 0;
 }
 
 article#small-stub{
@@ -69,4 +76,28 @@ div.stubs{
   justify-content: flex-end;
   flex-direction: column;
   padding: 5vw 0;
+}
+
+article#small-stub:nth-child(2n+0){
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 6vw 0;
+}
+
+#right-text{
+  width: 50%;
+}
+
+.cir-img{
+  background-image: url("../imgs/boot.gif");
+  background-size: cover;
+  background-position: center;
+
+  width: 33vw;
+  height: 33vw;
+  border-radius: 50%;
+  align-self: center;
+  border: 5px solid #8febd6;
 }
