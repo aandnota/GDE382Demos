@@ -3,8 +3,12 @@ body, h1{
   margin: 0;
 }
 
+body{
+  font-family: "Roboto", sans-serif;
+}
+
 section.headerimage{
-  width: 100vw;
+  width: 100%;
   height: 50vw;
 
   background-image: url("../imgs/pointyboot.jpg");
@@ -14,7 +18,6 @@ section.headerimage{
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 
@@ -27,6 +30,8 @@ div.primary-text{
 div.primary-text>h1{
   color: #fff;
   font-size: 10rem;
+  font-family: "Noticia Text", sans-serif;
+  line-height: 89%;
 }
 
 section.content{
@@ -37,14 +42,25 @@ section.content{
 article#lead-text{
   width: 100%;
   font-style: italic;
+  margin: 10vw 0;
 }
 
-article.secondary-text{
+article.secondary-text h3{
+  margin: 3vw 0 1.5vw 0;
+}
 
+article.secondary-text p{
+  font-weight: 100;
+  font-style
 }
 
 article#small-stub{
   width: 60%;
+}
+
+section.stubs-background{
+  background-color: #79c1b1;
+  width: 100%;
 }
 
 div.stubs{
@@ -52,4 +68,5 @@ div.stubs{
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
+  padding: 5vw 0;
 }
